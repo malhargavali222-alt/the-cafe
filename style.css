@@ -3,6 +3,29 @@
     margin: 0;
 }
 
-nav{
-    
+#hero{
+    background-image: url("https://images.pexels.com/photos/33768844/pexels-photo-33768844.jpeg");
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+
+#hero div{
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#hero h1{
+    font-size:7rem;
+}
+
+@media screen and (max-width:428px) {
+    #hero h1{
+        font-size: 2rem;
+    }
+
+    #hero h3{
+        font-size: 1rem;
+    }
 }
