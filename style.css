@@ -34,9 +34,18 @@ nav a{
 }
 
 #about h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 4rem;
     text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: cursive;
+     background-color: rgba(0, 0, 0, 0.427);
+}
+
+#service h1{
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 4rem;
+    background-color: rgba(0, 0, 0, 0.427);
 }
 
 @media screen and (max-width:428px) {
