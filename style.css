@@ -38,7 +38,7 @@ nav a{
     margin-top: 3rem;
     margin-bottom: 3rem;
     font-family: cursive;
-     background-color: rgba(0, 0, 0, 0.427);
+    background-color: rgba(0, 0, 0, 0.427);
 }
 
 #service h1{
@@ -46,6 +46,11 @@ nav a{
     font-family: cursive;
     margin-bottom: 4rem;
     background-color: rgba(0, 0, 0, 0.427);
+}
+
+#contact img{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 
 @media screen and (max-width:428px) {
@@ -57,3 +62,7 @@ nav a{
         font-size: 1rem;
     }
 }
+
+
+
+                   
