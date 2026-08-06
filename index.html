@@ -1,230 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THe CAfE</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
-        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dmart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <!-- nav section -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">THe Cafe</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="flex-grow-1"></div>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+
+  <!-- nav section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">D-Mart</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse px-3" id="navbarNavDropdown">
+        <div class="flex-grow-1"></div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#service" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Service
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#Grocery">Grocery</a></li>
+            <li><a class="dropdown-item" href="#Clothes">Cloths</a></li>
+            <li><a class="dropdown-item" href="#Other">Other</a></li>
+          </ul>
+             <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- hero section -->
+    <div id="hero">
+    <div class="container-fluid">
+      <img src="https://media.licdn.com/dms/image/v2/D4D12AQENaVDgSz1FDA/article-cover_image-shrink_720_1280/B4DZjqpYaDG8AI-/0/1756283374327?e=2147483647&v=beta&t=hMFgs1U_EAUDe6EJG04uEm4_evMR3WO4iIdMNRfsYkY" alt="">
+    </div>
+  </div>
+
+   <!-- about secition -->
+  <div id="about" class="container-fluid my-3 py-3">
+    <h1>About Us</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KEqF3goqVVanVuwYEmNG9cyCchUnD2VR09RgtFPpsQ&s=10" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nobis fuga! Tempore maxime vitae minima
+          veritatis omnis quam error labore harum exercitationem et, ab quidem dolor rem est perferendis consectetur
+          debitis magnam quibusdam nam! Odio eius distinctio dolores animi minima ipsam consectetur temporibus quas
+          magni. Aliquam ipsam corporis repudiandae eius?</p>
+      </div>
+       <div class="row">
+      <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nobis fuga! Tempore maxime vitae minima
+          veritatis omnis quam error labore harum exercitationem et, ab quidem dolor rem est perferendis consectetur
+          debitis magnam quibusdam nam! Odio eius distinctio dolores animi minima ipsam consectetur temporibus quas
+          magni. Aliquam ipsam corporis repudiandae eius?</p>
+      </div>
+       <div class="col-md-6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQml0-jJdhHfB6FcBCFHkYxZ1nDRtFvagjLOtWs2S9brQ&s=10" alt="" class="img-fluid">
         </div>
-    </nav>
+        <div class="row">
+      <div class="col-md-6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KEqF3goqVVanVuwYEmNG9cyCchUnD2VR09RgtFPpsQ&s=10" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nobis fuga! Tempore maxime vitae minima
+          veritatis omnis quam error labore harum exercitationem et, ab quidem dolor rem est perferendis consectetur
+          debitis magnam quibusdam nam! Odio eius distinctio dolores animi minima ipsam consectetur temporibus quas
+          magni. Aliquam ipsam corporis repudiandae eius?</p>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-    <!-- hero section -->
-    <div id="hero" class="text-light d-flex flex-column justify-content-center align-items-center">
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <h1>Cafe</h1>
-            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum?</h3>
-            <button class="btn btn-primary">Book seat</button>
-        </div>
+   <!-- service section -->
+    <!-- grocery -->
+
+  <div id="service" class="container-fluid">
+    <h1>Our Services</h1>
+    <div id="Grocery" class=" d-flex justify-content-evenly my-5">
+    <div class="card" style="width: 18rem;">
+      <img src="https://www.dmartindia.com/static/media/GROCERY%20&%20STAPLES.88be12a7.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
     </div>
 
-
-    <!-- about section -->
-    <div id="about" class="container-fluid">
-        <h1>About Us</h1>
-        <div class="row my-3">
-            <div class="col-md-4">
-                <img src="https://images.pexels.com/photos/19279817/pexels-photo-19279817.jpeg" alt="" width="100%">
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"><img src="https://images.pexels.com/photos/2874780/pexels-photo-2874780.jpeg" alt=""
-                    width="100%"></div>
-            <div class="col-md-4"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <img src="https://images.pexels.com/photos/32727236/pexels-photo-32727236.jpeg" alt="" width="100%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam dolor perspiciatis
-                    debitis soluta rem eos qui consectetur, dolores quibusdam deserunt iusto quasi perferendis
-                    laudantium
-                    voluptas est quod nisi officia veritatis?</p>
-            </div>
-            <div class="col-md-4">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae officia error eius
-                    magni optio ad, deserunt id animi corrupti obcaecati velit ex, eum, pariatur sit quos quia ipsum
-                    tenetur
-                    debitis!</p>
-            </div>
-            <div class="col-md-4">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis sint similique
-                    qui at, numquam ipsum assumenda nam sit dolore. Optio doloribus voluptas quo suscipit, itaque ipsa
-                    eum
-                    adipisci nobis aspernatur!</p>
-            </div>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://www.dmartindia.com/static/media/GROCERY%20&%20STAPLES.88be12a7.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
     </div>
 
+    <div class="card" style="width: 18rem;">
+      <img src="https://www.dmartindia.com/static/media/GROCERY%20&%20STAPLES.88be12a7.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <!-- service section -->
-    <div id="service" class="container my-5 d-flex flex-column justify-content-center">
-        <h1>Menu Card..</h1>
-        <div class="row">
-            <div class="col-md-4 m">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://images.pexels.com/photos/9268652/pexels-photo-9268652.jpeg" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://images.pexels.com/photos/9268652/pexels-photo-9268652.jpeg" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://images.pexels.com/photos/9268652/pexels-photo-9268652.jpeg" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://images.pexels.com/photos/9268652/pexels-photo-9268652.jpeg"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://images.pexels.com/photos/9268652/pexels-photo-9268652.jpeg"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- contact section -->
-        <div id="contact" class="container-fluid my-5">
-            <h1>Contact Us</h1>
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <img src="https://thumbs.dreamstime.com/b/minimalist-outlined-user-person-profile-contact-symbol-representation-icon-simple-clean-outline-black-white-396121322.jpg"
-                        alt="" width="70" height="70">
-                </div>
-                <div class="col-md-3"></div>
-            </div>
-                <div class="row my-5">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <form class="cardshadow-lg">
-                        <div class="card-body-1">
-                            <input type="text" class="form-control my-2" placeholder="enter your name">
-                            <input type="text" class="form-control my-2" placeholder="enter your email">
-                            <input type="text" class="form-control my-2" placeholder="enter your mobile no.">
-                            <textarea class="form-control my-2" placeholder="enter your message"></textarea>
-                            <button class="btn btn-outline-primary">send</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-3"></div>
-            </div>
-        </div>
+  <!-- cloths -->
+    <div id="Clothes" class=" d-flex justify-content-evenly my-5">
+    <div class="card" style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAxN7O_4601ZG_o6UOJ7A0T7VczEti3HnXjzQbrXfzMKW_iLDJGisWkViS&s=10" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
     </div>
 
-            <!-- footer section -->
-<footer class="bg-dark text-light pt-5 mt-5">
-    <div class="container">
-        <div class="row">
-
-            <!-- Brand / About -->
-            <div class="col-md-4 mb-4">
-                <h5 class="text-uppercase mb-3 fw-bold">MY CAFE</h5>
-                <p class="text-secondary small">
-                    Where every cup feels like home
-                </p>
-            </div>
-
-            <!-- Quick Links -->
-            <div class="col-md-4 mb-4">
-                <h6 class="text-uppercase mb-3 fw-bold">Check Out </h6>
-                <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#hero" class="text-secondary text-decoration-none">Home</a></li>
-                    <li class="mb-2"><a href="#about" class="text-secondary text-decoration-none">About</a></li>
-                    <li class="mb-2"><a href="#contact" class="text-secondary text-decoration-none">Contact</a></li>
-                </ul>
-            </div>
-
-            <!-- Social Icons -->
-            <div class="col-md-4 mb-4">
-                <h6 class="text-uppercase mb-3 fw-bold">Follow</h6>
-                <a href="#" class="text-light me-3 fs-5"><i class="fa-brands fa-instagram"></i></a>
-                <a href="" class="text-light me-3 fs-5"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#" class="text-light me-3 fs-5"><i class="fa-solid fa-location-dot"></i></a>
-            </div>
-
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAxN7O_4601ZG_o6UOJ7A0T7VczEti3HnXjzQbrXfzMKW_iLDJGisWkViS&s=10" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <div class="card" style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAxN7O_4601ZG_o6UOJ7A0T7VczEti3HnXjzQbrXfzMKW_iLDJGisWkViS&s=10" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- other -->
+    <div id="Other" class=" d-flex justify-content-evenly my-5">
+    <div class="card" style="width: 18rem;">
+      <img src="https://images.jdmagicbox.com/comp/guntur/g5/9999px863.x863.220331211508.p7g5/catalogue/subhodaya-super-bazzar-undavalli-guntur-grocery-stores-whqjedbbkx.jpg?clr=" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://images.jdmagicbox.com/comp/guntur/g5/9999px863.x863.220331211508.p7g5/catalogue/subhodaya-super-bazzar-undavalli-guntur-grocery-stores-whqjedbbkx.jpg?clr=" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://images.jdmagicbox.com/comp/guntur/g5/9999px863.x863.220331211508.p7g5/catalogue/subhodaya-super-bazzar-undavalli-guntur-grocery-stores-whqjedbbkx.jpg?clr=" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- contact section -->
+  <div id="contact" class="container-fluid my-5">
+    <h1>Contact Us</h1>
+    <div class="row my-5">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <form class="cardshadow-lg">
+          <div class="card-body-1">
+            <input type="text" class="form-control my-2" placeholder="enter your name">
+            <input type="text" class="form-control my-2" placeholder="enter your email">
+            <input type="text" class="form-control my-2" placeholder="enter your mobile no.">
+            <textarea class="form-control my-2" placeholder="enter your message"></textarea>
+            <button class="btn btn-outline-primary">send</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30548.29703929211!2d74.56358398499971!3d16.849303545425332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc11942e00b2813%3A0x6ee1615e6e49b25e!2sD-mart%20Sangli!5e0!3m2!1sen!2sin!4v1785608413565!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+  <!-- footer section -->
+  <footer class="container-fluid bg-success text-light text-center p-2 mt-3">
+        <h3>copyright@2026</h3>
+      </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
 </html>
