@@ -3,43 +3,66 @@
     margin: 0;
 }
 
-.navbar-brand{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
+nav{
+    background-color: rgba(0, 0, 0, 0.29);
 }
 
-#hero img{
+nav a{
+  color: white;
+  font-family: cursive;
+}
+
+.nav-link{
+    color: white;
+}
+#hero{
+    background-image: url("https://images.pexels.com/photos/33768844/pexels-photo-33768844.jpeg");
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 100vh;
+    height:100vh;
 }
 
-.row{
-    margin-top: 3rem;
-    margin: 0.5rem;
+#hero div{
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family:cursive;
+}
+
+#hero h1{
+    font-size:7rem;
 }
 
 #about h1{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    background-color:darkgreen;
-    color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.427);
 }
 
 #service h1{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    background-color:darkgreen;
-    color: white;
+    font-family: cursive;
+    margin-bottom: 4rem;
+    background-color: rgba(0, 0, 0, 0.427);
 }
 
-#contact h1{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    background-color:darkgreen;
-    color: white;
+#contact img{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
+
+@media screen and (max-width:428px) {
+    #hero h1{
+        font-size: 2rem;
+    }
+
+    #hero h3{
+        font-size: 1rem;
+    }
+}
+
+
+
+                   
